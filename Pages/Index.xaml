@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUD_Elcom.Index"
+             Title="Index">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Clicked="btnAdd_Clicked">
+            <ToolbarItem.IconImageSource>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="Android, ISO" Value="Add.png"></On>
+                </OnPlatform>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <!--<Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <StackLayout WidthRequest="200">
+                    <Label Text="Index" RelativeLayout.YConstraint="10" HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
+                    <Button Text="Add" RelativeLayout.XConstraint="275" x:Name="btnAdd" BackgroundColor="#2196F3" HorizontalOptions="EndAndExpand" Clicked="btnAdd_Clicked"></Button>
+                </StackLayout>
+            </Frame>-->
+            <RelativeLayout>
+            <Label Text="Manufacture Name" VerticalTextAlignment="Center"></Label>
+            <Label Text="Manufacture Code" RelativeLayout.XConstraint="150" VerticalTextAlignment="Center" HorizontalOptions="CenterAndExpand"></Label>
+            <Label Text="Quantity" RelativeLayout.XConstraint="285" VerticalTextAlignment="End" HorizontalOptions="EndAndExpand"></Label>
+        </RelativeLayout>
+        <ListView x:Name="lvStockItems"
+                      ItemSelected="lvStockItems_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <RelativeLayout HorizontalOptions="FillAndExpand" Margin="20, 0, 0, 0">
+                            <Label Text="{Binding ManufactureName}" VerticalTextAlignment="Center"></Label>
+                            <Label Text="{Binding ManufactureCode}" RelativeLayout.XConstraint="172" VerticalTextAlignment="Center" HorizontalOptions="CenterAndExpand"></Label>
+                            <Label Text="{Binding CartonQty}" RelativeLayout.XConstraint="325" VerticalTextAlignment="End" HorizontalOptions="EndAndExpand"></Label>
+                        </RelativeLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

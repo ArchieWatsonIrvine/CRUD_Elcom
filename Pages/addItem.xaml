@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUD_Elcom.addItem"
+             Title="{Binding ManufactureName}">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Clicked="btnExit_Clicked">
+            <ToolbarItem.IconImageSource>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="Android, ISO" Value="backArrow.png"></On>
+                </OnPlatform>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Name" />
+            <Entry x:Name="entNam" Text="{Binding ManufactureName}"></Entry>
+            <Label Text="Code" />
+            <Entry x:Name="entCode" Text="{Binding ManufactureCode}"></Entry>
+            <Label Text="Quanity" />
+            <Entry x:Name="entQt" Text="{Binding CartonQty}"></Entry>
+            <Button x:Name="btnSave" Text="Save" Clicked="btnSave_Clicked"></Button>
+            <Button x:Name="btnDel" Text="Delete" BackgroundColor="Red" Clicked="btnDel_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

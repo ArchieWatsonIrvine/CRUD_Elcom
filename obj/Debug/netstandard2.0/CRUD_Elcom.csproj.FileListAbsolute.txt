@@ -1,0 +1,17 @@
+C:\Users\archi\source\repos\CRUD_Elcom\CRUD_Elcom\CRUD_Elcom\obj\Debug\netstandard2.0\CRUD_Elcom.csproj.AssemblyReference.cache
+C:\Users\archi\source\repos\CRUD_Elcom\CRUD_Elcom\CRUD_Elcom\obj\Debug\netstandard2.0\CRUD_Elcom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\archi\source\repos\CRUD_Elcom\CRUD_Elcom\CRUD_Elcom\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\archi\source\repos\CRUD_Elcom\CRUD_Elcom\CRUD_Elcom\obj\Debug\netstandard2.0\CRUD_Elcom.AssemblyInfoInputs.cache
+C:\Users\archi\source\repos\CRUD_Elcom\CRUD_Elcom\CRUD_Elcom\obj\Debug\netstandard2.0\CRUD_Elcom.AssemblyInfo.cs
+C:\Users\archi\source\repos\CRUD_Elcom\CRUD_Elcom\CRUD_Elcom\obj\Debug\netstandard2.0\CRUD_Elcom.csproj.CoreCompileInputs.cache
+C:\Users\archi\source\repos\CRUD_Elcom\CRUD_Elcom\CRUD_Elcom\bin\Debug\netstandard2.0\CRUD_Elcom.deps.json
+C:\Users\archi\source\repos\CRUD_Elcom\CRUD_Elcom\CRUD_Elcom\bin\Debug\netstandard2.0\CRUD_Elcom.dll
+C:\Users\archi\source\repos\CRUD_Elcom\CRUD_Elcom\CRUD_Elcom\bin\Debug\netstandard2.0\CRUD_Elcom.pdb
+C:\Users\archi\source\repos\CRUD_Elcom\CRUD_Elcom\CRUD_Elcom\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\archi\source\repos\CRUD_Elcom\CRUD_Elcom\CRUD_Elcom\obj\Debug\netstandard2.0\CRUD_Elcom.dll
+C:\Users\archi\source\repos\CRUD_Elcom\CRUD_Elcom\CRUD_Elcom\obj\Debug\netstandard2.0\refint\CRUD_Elcom.dll
+C:\Users\archi\source\repos\CRUD_Elcom\CRUD_Elcom\CRUD_Elcom\obj\Debug\netstandard2.0\CRUD_Elcom.pdb
+C:\Users\archi\source\repos\CRUD_Elcom\CRUD_Elcom\CRUD_Elcom\obj\Debug\netstandard2.0\ref\CRUD_Elcom.dll
+C:\Users\archi\source\repos\CRUD_Elcom\CRUD_Elcom\CRUD_Elcom\obj\Debug\netstandard2.0\Pages\addItem.xaml.g.cs
+C:\Users\archi\source\repos\CRUD_Elcom\CRUD_Elcom\CRUD_Elcom\obj\Debug\netstandard2.0\Pages\Index.xaml.g.cs
+C:\Users\archi\source\repos\CRUD_Elcom\CRUD_Elcom\CRUD_Elcom\obj\Debug\netstandard2.0\Page1.xaml.g.cs

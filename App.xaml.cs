@@ -10,6 +10,7 @@ namespace CRUD_Elcom
         {
             InitializeComponent();
 
+            //This navigation is changed and updated in CRUD_Example with API 
             MainPage = new Page1();
         }
 
